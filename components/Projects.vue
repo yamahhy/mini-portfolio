@@ -42,17 +42,16 @@ const showTable = ref(false);
 
 const projects = {
     'CCCI 2024 Projects': [
-        { name: 'Simple Calculator', date: '2024-01-15', link: 'https://github.com/yourusername/simple-calculator' },
-        { name: 'Mini-portfolio', date: '2024-03-10', link: 'https://github.com/yourusername/mini-portfolio' },
-        { name: 'Attendance Monitoring', date: '2024-05-20', link: 'https://github.com/yourusername/attendance-monitoring' }
+        { name: 'Mini-portfolio', date: '2024-03-10', githubLink: 'https://github.com/yamahhy/mini-portfolio', driveLink: 'https://drive.google.com/drive/folders/1h2s4St64Z2i53iKXBO2NS0dhGsKBZwhU?usp=drive_link' },
+        { name: 'Attendance Monitoring', date: '2024-05-20', githubLink: 'https://github.com/yamahhy/attendance-monitoring', driveLink: 'https://drive.google.com/drive/folders/1KMYK5pMP5IN81G68v-GD-eEElmd-ovsR?usp=drive_link' }
     ],
     'Junior Projects': [
-        { name: 'Simple App', date: '2023-02-12', link: 'https://github.com/yourusername/simple-app' },
-        { name: 'Simulation', date: '2023-04-18', link: 'https://github.com/yourusername/simulation' }
+        { name: 'Simple App', date: '2024-01-17', githubLink: 'https://github.com/yourusername/simple-app' , driveLink: 'https://drive.google.com/file/d/1wZHZrKpX00X_uBmW-s5Infpb2_6DUH45/view?usp=drive_link'},
+        { name: 'CSC133', date: '2024-02-20', githubLink: 'https://github.com/yourusername/simulation' , driveLink: 'https://drive.google.com/drive/folders/1R1mVve5WQbsQzSFNnJp9FyYYRGbERZqm?usp=drive_link'},
+        { name: 'CSC124', date: '2023-06-01', githubLink: 'https://github.com/yourusername/simulation', driveLink: 'https://drive.google.com/drive/folders/1SPKc6402Kl3hpgR7eebx5iynzYSv5TPD' }
     ],
     'Sophomore Projects': [
-        { name: 'LinkedList', date: '2022-03-14', link: 'https://github.com/yourusername/linkedlist' },
-        { name: 'Modified Array', date: '2022-06-22', link: 'https://github.com/yourusername/modified-array' }
+        { name: 'CCC121', date: '2022-01-10', githubLink: 'https://github.com/yourusername/linkedlist', driveLink: 'https://drive.google.com/drive/folders/1uoB3rz1d8PP4wMU__DFowHCZS2mY2V82?usp=drive_link' },
     ]
 };
 
