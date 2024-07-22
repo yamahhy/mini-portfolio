@@ -63,6 +63,7 @@ const showProjectList = (projectCategory) => {
 </script>
 
 <style scoped>
+
 .project-card {
     position: relative;
     border-radius: 1rem;

@@ -74,46 +74,9 @@
     justify-content: center;
 }
 
-.profile-button{
-    column-gap: 1rem;
+.profile-social:hover{
+    color: var(--first-color);
 }
 
-.profile-button-small{
-    column-gap: .5rem;
-}
-/* buttons */
-.button {
-    display: inline-flex;
-    align-items: center;
-    column-gap: .5rem;
-    background-color: var(--first-color);
-    color: #fff;
-    padding: 1rem 1rem;
-    border-radius: .5rem;
-    transition: .3s;
-    box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
-}
 
-.button i{
-    font-size: 1.15rem;
-}
-
-.button:hover {
-    background-color: var(--first-color-alt);
-}
-
-.button-small {
-    padding: .75rem;
-    box-shadow: none;
-    column-gap: .25rem;
-}
-
-.button-gray {
-    background-color: var(--text-color-light);
-    color: var(--title-color);
-}
-
-.button-gray:hover {
-    background-color: var(--text-color-light);
-}
 </style>
