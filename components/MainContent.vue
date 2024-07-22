@@ -71,6 +71,7 @@ onMounted(() => {
 </script>
 
 <style scoped>
+
 .project-content {
     grid-template-columns: 332px;
     justify-content: center;

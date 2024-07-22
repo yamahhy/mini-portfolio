@@ -11,13 +11,16 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "@vue/compiler-sfc": "^3.4.33",
     "nuxt": "^3.12.3",
     "remixicon": "^4.3.0",
     "scrollreveal": "^4.0.9",
-    "vue": "latest"
+    "vue": "^3.4.33",
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.18.1",
+    "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/runtime-core": "^3.4.32",
     "@vue/runtime-dom": "^3.4.32",
     "autoprefixer": "^10.4.19",
