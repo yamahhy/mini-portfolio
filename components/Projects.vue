@@ -19,15 +19,6 @@
                     </div>
                 </div>
             </article>
-            <article class="project-card" @click="showProjectList('Sophomore Projects')">
-                <img src="@/assets/img/project3.jpg" alt="" class="project-img">
-                <div class="project-model">
-                    <div>
-                        <span class="project-subtitle">Compiled Projects in Sophomore</span>
-                        <h3 class="project-title">Sophomore Projects</h3>
-                    </div>
-                </div>
-            </article>
         </div>
         <ProjectList v-else :projects="selectedProjects" @go-back="showTable = false"/>
     </div>
@@ -49,9 +40,6 @@ const projects = {
         { name: 'Simple App', date: '2024-01-17', githubLink: 'https://github.com/yourusername/simple-app' , driveLink: 'https://drive.google.com/file/d/1wZHZrKpX00X_uBmW-s5Infpb2_6DUH45/view?usp=drive_link'},
         { name: 'CSC133', date: '2024-02-20', githubLink: 'https://github.com/yourusername/simulation' , driveLink: 'https://drive.google.com/drive/folders/1R1mVve5WQbsQzSFNnJp9FyYYRGbERZqm?usp=drive_link'},
         { name: 'CSC124', date: '2023-06-01', githubLink: 'https://github.com/yourusername/simulation', driveLink: 'https://drive.google.com/drive/folders/1SPKc6402Kl3hpgR7eebx5iynzYSv5TPD' }
-    ],
-    'Sophomore Projects': [
-        { name: 'CCC121', date: '2022-01-10', githubLink: 'https://github.com/yourusername/linkedlist', driveLink: 'https://drive.google.com/drive/folders/1uoB3rz1d8PP4wMU__DFowHCZS2mY2V82?usp=drive_link' },
     ]
 };
 

@@ -2,7 +2,7 @@
     <div>
         <div class="profile-info grid">
             <div class="profile-info-group">
-                <h3 class="profile-info-number">3rd</h3>
+                <h3 class="profile-info-number">4th</h3>
                 <p class="profile-info-description">CS Students</p>
             </div>
             <div class="profile-info-group">
