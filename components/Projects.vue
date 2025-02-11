@@ -35,19 +35,21 @@ const projects = {
     'CCCI 2024 Projects': [
         { name: 'Mini-portfolio', date: '2024-03-10', githubLink: 'https://github.com/yamahhy/mini-portfolio', driveLink: 'https://drive.google.com/drive/folders/1h2s4St64Z2i53iKXBO2NS0dhGsKBZwhU?usp=drive_link' },
         { name: 'Attendance Monitoring', date: '2024-05-20', githubLink: 'https://github.com/yamahhy/attendance-monitoring', driveLink: 'https://drive.google.com/drive/folders/1KMYK5pMP5IN81G68v-GD-eEElmd-ovsR?usp=drive_link' }
-    ],
-    'Junior Projects': [
-        { name: 'Simple App', date: '2024-01-17', githubLink: 'https://github.com/yourusername/simple-app' , driveLink: 'https://drive.google.com/file/d/1wZHZrKpX00X_uBmW-s5Infpb2_6DUH45/view?usp=drive_link'},
-        { name: 'CSC133', date: '2024-02-20', githubLink: 'https://github.com/yourusername/simulation' , driveLink: 'https://drive.google.com/drive/folders/1R1mVve5WQbsQzSFNnJp9FyYYRGbERZqm?usp=drive_link'},
-        { name: 'CSC124', date: '2023-06-01', githubLink: 'https://github.com/yourusername/simulation', driveLink: 'https://drive.google.com/drive/folders/1SPKc6402Kl3hpgR7eebx5iynzYSv5TPD' }
     ]
 };
 
 const showProjectList = (projectCategory) => {
-    selectedProjects.value = projects[projectCategory];
-    showTable.value = true;
+    if (projectCategory === 'Junior Projects') {
+        // Opens the direct Google Drive link in a new tab
+        window.open('https://drive.google.com/file/d/1Uk64orLO_uICISEwdZF3lONEp8n3ExH1/view?usp=sharing', '_blank');
+    } else {
+        selectedProjects.value = projects[projectCategory];
+        showTable.value = true;
+    }
 };
+
 </script>
+
 
 <style scoped>
 
